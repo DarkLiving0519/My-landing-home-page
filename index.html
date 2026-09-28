@@ -1,0 +1,227 @@
+<html>
+        <head>
+            <title> Home Page </title>
+            <style>
+                @font-face {
+                    font-family:matrixtype ;
+                    src: url(fonts/MatrixType-Regular.ttf);
+                }
+                body { 
+                        background-image: url('Sfondo.jpg'); 
+                        background-repeat: no-repeat; 
+                        background-size: cover;
+                        background-position: center;
+                        margin: 0;
+                        padding: 0;
+                    }
+                .scroll-container {
+                        width: 850px;
+                        overflow-y: scroll; 
+                        background-color: #284941cc; 
+                        margin: 0;            
+                        padding: 0;
+                        }
+                .video-sfondo video{
+                        object-position: top;
+                        object-fit: cover;
+                        height: 290px;
+                        width: 100%;
+                        z-index: 1;
+                    }
+                #welcome{
+                        width: 300px;
+                        z-index: 1;
+                        position: absolute;
+                        padding-left: 270px;
+                    }
+                    .benvenuti h1{
+                        color: #ffffff; 
+                        font-family: 'matrixtype';
+                        font-size: 50px;
+                        padding: 50px;
+                    }
+                    .nome h1{
+                        color: #ffffff; 
+                        font-family: 'oswald';
+                        font-size: 30px;
+                    }
+                    .Casella{
+                        background-color: #ff9100;
+                        width: 200px;
+                        text-align: center;
+                    }
+                    th{
+                        padding: 10px;  
+                    }
+                    a{
+                        text-decoration: none;
+                    }
+                    .casella h1:hover{
+                        color:#000000;
+                    }
+                    .testo_con_immagine {
+                        display: flex;
+                        align-items: center; /* Allinea l'immagine e il testo */
+                        width: auto;
+                        padding: 20px;
+                    }
+                    header{
+                        margin: 0;
+                        background-color: #000000;
+                        display: flex;
+                        align-items: right;
+                        }
+                    header h1{
+                        margin:0px;
+                        color: #00b418; 
+                        font-family:'matrixtype';
+                        font-size: 23px;
+                        margin-left: 25x;
+                        margin-right: 10px;
+                        padding-left: 10px;
+                    }
+                    header h1:hover{
+                        color:#ff0000;
+                    }
+                    header h2{
+                        margin:0px;
+                        color: #00b418; 
+                        font-family: 'matrixtype';
+                        font-size: 23px;
+                        margin-left: 10px;
+                    }
+            </style>
+            <link rel="icon" type="image/x-icon" href="icona.jpg">
+            <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+        </head>
+        <body>
+               <center>
+                        <div class="scroll-container">
+                            <header>
+                                    <h2>
+                                        Social:
+                                    </h2>
+                                    <a href="https://github.com/DarkLiving0519" target="_blank" rel="noopener noreferrer">
+                                        <h1>
+                                            Github
+                                        </h1>
+                                    </a>
+                                    <a href="https://www.youtube.com/@LivingTen0519" target="_blank" rel="noopener noreferrer">
+                                        <h1>
+                                            YouTube
+                                        </h1>
+                                    </a>
+                            </header>
+                            <div id="welcome"
+                            <div class="benvenuti">
+                                    <h1 align="right" style="letter-spacing: 7px;">
+                                        BENVENUTI
+                                    </h1>
+                            </div>
+                             <div class="video-sfondo">
+                                <video autoplay="true" loop muted>
+                                    <source src="home_menu.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="nome">
+                                <br>
+                                <div class="testo_con_immagine">
+                                    <h1>
+                                        <b>
+                                            Ciao sono Leonardo Berolo, ho 18 anni. 
+                                            <p>
+                                                Sono specializzato in: Editing Video,
+                                            </p>
+                                            <p>
+                                                Grafica e Sviluppo di sitiweb
+                                            </p>
+                                        </b>
+                                    </h1>
+                                    <img src="Foto Leonardo.jpg" alt="foto di Leonardo" width="257px" height="257px" style="margin: 30px;">
+                                </div>
+                                <h1>   
+                                    <p>
+                                        Alcuni dei miei lavori:
+                                    </p>
+                                </h1>
+                                <table>
+                                      <tr>
+                                            <th>
+                                                <div class="Casella">
+                                                    <a href="https://www.leonardoberolo.it/DOOM_THE_DARK_AGES/" target="_blank" rel="noopener noreferrer">
+                                                        <h1>
+                                                            Sito DOOM
+                                                        </h1>
+                                                    </a>
+                                                </div>
+                                            </th>
+                                                <th>
+                                                    <div class="Casella">
+                                                        <a href="https://www.leonardoberolo.it/portfoglio/" target="_blank" rel="noopener noreferrer">
+                                                        <h1>
+                                                            Il mio Portfoio
+                                                        </h1>
+                                                    </div>
+                                                </a>
+                                                </th>
+                                          </tr>
+                                          <tr>
+                                                <th>
+                                                    <div class="Casella">
+                                                        <a href="https://www.leonardoberolo.it/Persona_3_Reload/" target="_blank" rel="noopener noreferrer">
+                                                        <h1>
+                                                            Sito Persona 3
+                                                        </h1></a>
+                                                    </div>
+                                                </th>
+                                                <th>
+                                                    <div class="Casella">
+                                                        <a href="https://www.leonardoberolo.it/Lavoro_con_CSS_esterno/" target="_blank" rel="noopener noreferrer">
+                                                        <h1>
+                                                            Sito Metro
+                                                        </h1></a>
+                                                    </div>
+                                                </th>
+                                          </tr>
+                                          <tr>
+                                                <th>
+                                                    <div class="Casella">
+                                                        <a href="https://www.leonardoberolo.it/Jojo_Parte_3_OVA_ITA/" target="_blank" rel="noopener noreferrer">
+                                                        <h1>
+                                                            Sito Jojo
+                                                        </h1></a>
+                                                    </div>
+                                                </th>
+                                                <th>
+                                                    <div class="Casella">
+                                                        <a href="https://www.leonardoberolo.it/berolo28feb/" target="_blank" rel="noopener noreferrer">
+                                                        <h1>
+                                                            Sito One Direction
+                                                        </h1></a>
+                                                    </div>
+                                                </th>
+                                          </tr>
+                                            <tr>
+                                                <th>
+                                                    <div class="Casella">
+                                                        <a href="https://www.leonardoberolo.it/Lavoro_del_13_12_24/" target="_blank" rel="noopener noreferrer">
+                                                        <h1>
+                                                            Sito AM
+                                                        </h1></a>
+                                                    </div>
+                                                </th>
+                                                <th>
+                                                    <div class="Casella">
+                                                        <a href="https://www.leonardoberolo.it/classicss/" target="_blank" rel="noopener noreferrer">
+                                                        <h1>
+                                                            Sito Ikea
+                                                        </h1></a>
+                                                    </div>
+                                                </th>
+                                          </tr>
+                                    </table>
+                            </div>
+                        </div>
+               </center>
+        </body>
+</html>
